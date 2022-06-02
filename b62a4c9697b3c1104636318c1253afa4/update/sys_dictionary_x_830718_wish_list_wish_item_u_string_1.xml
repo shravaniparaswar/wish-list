@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="item" table="x_830718_wish_list_wish_item">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="u_string_1" table="x_830718_wish_list_wish_item">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -9,10 +9,10 @@
         <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Display name</column_label>
+        <column_label>New String</column_label>
         <comments/>
         <create_roles/>
-        <default_value>Display name</default_value>
+        <default_value/>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -22,18 +22,18 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>item</element>
+        <element>u_string_1</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
         <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
-        <max_length>300</max_length>
+        <max_length>40</max_length>
         <name>x_830718_wish_list_wish_item</name>
         <next_element/>
         <primary>false</primary>
-        <read_only>true</read_only>
+        <read_only>false</read_only>
         <read_roles/>
         <reference/>
         <reference_cascade_rule/>
@@ -47,14 +47,14 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-06-02 06:14:50</sys_created_on>
-        <sys_id>cc7bccd697b3c1104636318c1253af7c</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>Display name</sys_name>
+        <sys_created_on>2022-06-02 07:33:03</sys_created_on>
+        <sys_id>395d981a97f3c1104636318c1253af4d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New String</sys_name>
         <sys_package display_value="Wish List" source="x_830718_wish_list">b62a4c9697b3c1104636318c1253afa4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Wish List">b62a4c9697b3c1104636318c1253afa4</sys_scope>
-        <sys_update_name>sys_dictionary_x_830718_wish_list_wish_item_item</sys_update_name>
+        <sys_update_name>sys_dictionary_x_830718_wish_list_wish_item_u_string_1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-06-02 07:33:03</sys_updated_on>
         <table_reference>false</table_reference>
